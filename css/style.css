@@ -51,6 +51,11 @@ nav ul li{
 .bg-blu{
   background-color: rgb(72, 72, 236);
 }
+
+.font-size-lg{
+  font-size: 2rem;
+  color: white;
+}
 /* qui iniziano gli stili specifici degli elementi */
 .content{
   height: calc(100vh - 90px);
@@ -107,6 +112,33 @@ a .fa-solid{
   margin-top: 20px;
 }
 
+
+/* da qui iniziano gli stili relativi al jumbo */
+
+.plus{
+  border: 1px solid white;
+  padding: 5px 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.blue-badge{
+  border-radius: 15px;
+  background-color: rgb(0, 0, 167);
+  color: white;
+  margin-left: 10px;
+  padding: 4px;
+}
+.blue-badge-plus{
+  border-radius: 50%;
+  background-color: rgb(0, 0, 167);
+  color: white;
+  margin-left: 10px;
+  padding: 4px 8px;
+}
+.desktop{
+  display: none;
+}
+
 /* qui iniziano le media query */
 
 @media screen and (min-width:992px) {
@@ -133,4 +165,10 @@ a .fa-solid{
     display: block;
     margin-right: 20px;
   }
+  .blue-badge-plus{
+    display: none;
+  }
+   .desktop{
+    display: inline-block;
+   }
 }
