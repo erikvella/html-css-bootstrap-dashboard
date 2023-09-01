@@ -4,20 +4,17 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
-header{
-  height: 110px;
-  width: 100%;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-}
 .page{
+  width: 100vw;
   height: 100vh;
-  width: 100vw;
 }
-main{
-  width: 100vw;
+header{
+  height: 90px;
+  width: 100%;
+  
 }
+
+
 .debug{
   border: 1px solid red;
   background-color: aquamarine;
@@ -42,45 +39,15 @@ main{
 }
 /* qui iniziano gli stili specifici degli elementi */
 
-
-.main-wrapper{
-  height: calc(100% - 90px);
-  width: 100vw;
-}
-
-
-.container-fluid{
-  height: 90px;
-}
-
 .side-menu{
   height: calc(100vh - 90px);
   width: 80px;
 }
 
-.ev-jumbo{
-  width: calc(100vw - 80px);
+.content{
+  width: 100%;
 }
 
-.loghino{
-  height: 60px;
-  margin: 10px;
-}
-
-
-.logo{
-  display: none;
-}
-
-
-/* qui iniziano le media query */
-
-@media screen and (min-width:1200px)  {
-  .loghino{
-    display: none;
-  }
-  .logo{
-    display: block;
-    margin-top: 30px;
-  }
+.ev-jumbotron{
+  background-color: blue;
 }
