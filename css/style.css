@@ -78,6 +78,6 @@ nav ul li{
     width: 180px;
   }
   .desk-menu{
-    display: block;
+    display: inline-block;
   }
 }
