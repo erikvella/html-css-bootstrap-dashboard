@@ -52,7 +52,10 @@ nav ul li{
   width: 100%;
 }
 
-
+.fa-solid{
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
 
 .side-settings{
   position: absolute;
