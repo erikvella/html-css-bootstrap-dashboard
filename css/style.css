@@ -13,7 +13,9 @@ header{
   width: 100%;
   
 }
-
+nav ul li{
+  list-style: none;
+}
 
 .debug{
   border: 1px solid red;
@@ -48,9 +50,7 @@ header{
   width: 100%;
 }
 
-.ev-jumbotron{
-  background-color: blue;
-}
+
 
 .side-settings{
   position: absolute;
@@ -58,7 +58,9 @@ header{
   left: 0;
 }
 
-
+.desk-menu{
+  display: none;
+}
 
 
 
@@ -70,5 +72,7 @@ header{
   .side-menu{
     width: 180px;
   }
-  
+  .desk-menu{
+    display: block;
+  }
 }
