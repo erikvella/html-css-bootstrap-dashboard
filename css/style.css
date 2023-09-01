@@ -40,7 +40,9 @@ nav ul li{
   background-color: rgb(72, 72, 236);
 }
 /* qui iniziano gli stili specifici degli elementi */
-
+.content{
+  height: calc(100vh - 90px);
+}
 .side-menu{
   height: calc(100vh - 90px);
   width: 80px;
