@@ -159,7 +159,11 @@ a .fa-solid{
  
   border-top: 1px solid black;
 }
-
+.faq{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 10px;
+}
 /* qui iniziano gli effetti hover */
 
 .blue-badge:hover{
