@@ -143,6 +143,10 @@ a .fa-solid{
 .class-icon{
   height: 26px;
 }
+
+.desk-col{
+  display: none;
+}
 /* qui iniziano le media query */
 
 @media screen and (min-width:992px) {
@@ -175,4 +179,9 @@ a .fa-solid{
    .desktop{
     display: inline-block;
    }
+
+   .desk-col{
+    display: table-cell;
+
+  }
 }
