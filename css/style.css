@@ -138,7 +138,11 @@ a .fa-solid{
 .desktop{
   display: none;
 }
+/* da qui iniziano gli stili relativi alla parte della tabella */
 
+.class-icon{
+  height: 26px;
+}
 /* qui iniziano le media query */
 
 @media screen and (min-width:992px) {
