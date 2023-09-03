@@ -66,7 +66,7 @@
         </div>
       </div>
     </header>
-
+<!-- qui inizia il side menu -->
     <main class="d-flex ">
       <div class="side-menu position-relative">
         <nav>
@@ -104,7 +104,7 @@
      
 
 
-      <div class="content overflow-y-auto overflow-hidden  debug3">
+      <div class="content overflow-y-auto overflow-hidden">
 
 
          <!-- qui inizia il jumbotron -->
@@ -151,13 +151,13 @@
 
 
 
-        <div class="container-fluid">
+        <div class="container-fluid mt-5">
           <div class="row flex-column flex-lg-row">
-            <div class="col-12 col-lg-8 debug2">
+            <div class="col-12 col-lg-8">
               <div class="container-fluid">
                 <div class="row flex-column">
                   <div class="col debug3">
-                    <div>
+                    <div class="card-title">
                       <h2>Prossime classi</h2>
                     </div>
                     <!-- qui inizia la tabella -->
@@ -298,9 +298,12 @@
 
                   </div>
 
-                  <div class="col">
+                  <div class="col mt-5 mb-5 ">
                     <div>
-                      <h2>F.A.Q.</h2>
+                      <div class="card-title">
+                        <h2>F.A.Q.</h2>
+
+                      </div>
                       <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header">
@@ -350,11 +353,60 @@
 
 
 
-            <div class="col-12 col-lg-4 debug2">
+            <div class="col-12 col-lg-4">
               <div class="container-fluid">
                 <div class="row flex-column">
-                  <div class="col debug3">card3</div>
-                  <div class="col">card4</div>
+
+                  <!-- qui inizia la parte TODO -->
+                  <div class="col debug3">
+                    <div>
+                      <div class="card-title">
+                        <h2>TODO</h2>
+
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Kickoff nuove classi
+                        </label>
+                      </div>
+                      <div class="form-check bordi">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheck">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lezione su Bootstrap 5 in classe #75
+                        </label>
+                      </div>
+                      <div class="form-check bordi">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Controllare username github studenti
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- qui finisce la parte TODO -->
+
+                  <!-- qui inzia la parte del grafico img -->
+                  <div class="col mt-5 debug3">
+                    <div class="mt-5 mb-4 ">
+                      <img class="graph" src="img/stats.jpeg" alt="">
+                      <h3>Utenti attivi</h3>
+                      <span>
+                        Lista degli utenti attivi in piattaforma nell'ultimo mese
+                      </span>
+                    </div>
+
+                    <div class="mb-2 bordi">Gennaio: 1200</div>
+                    <div class="mb-2 bordi">Febbraio: 800</div>
+                    <div class="mb-2 bordi">Marzo: 1500</div>
+                    <div class="mb-2 bordi pt-3 pb-3 ">
+                      <a href="#">
+                        Visualizza report approfondito
+                      </a>
+                    </div>
+
+                  </div>
                 </div>
                
               </div>

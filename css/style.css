@@ -29,18 +29,12 @@ nav ul li{
 .desktop-icon{
   display: none;
 }
-.debug{
-  border: 1px solid red;
-  background-color: aquamarine;
-}
 
-.debug2{
-  border: 1px solid green;
-  background-color: salmon;
-}
+
+
 .debug3{
   border: 1px solid rgb(0, 0, 0);
-  background-color: rgb(230, 250, 114);
+  border-radius: 15px;
 }
 
 
@@ -147,6 +141,42 @@ a .fa-solid{
 .desk-col{
   display: none;
 }
+
+.graph{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.card-title{
+  background-color: rgb(194, 194, 194);
+  border-bottom: 1px solid black;
+}
+.form-check{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.bordi{
+ 
+  border-top: 1px solid black;
+}
+
+/* qui iniziano gli effetti hover */
+
+.blue-badge:hover{
+  background-color: rgb(3, 3, 96);
+}
+.blue-badge-plus:hover{
+  background-color: rgb(3, 3, 96);
+}
+
+.side-menu nav ul li a:hover{
+  background-color: rgb(158, 152, 152);
+  padding: 5px;
+}
+.plus:hover{
+  background-color: white;
+}
+
 /* qui iniziano le media query */
 
 @media screen and (min-width:992px) {
